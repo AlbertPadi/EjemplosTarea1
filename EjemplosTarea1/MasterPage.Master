@@ -4,20 +4,53 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>Mi Ejemplo</title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
     <script type="text/javascript">
-
     </script>
+    <link rel="stylesheet" type="text/css" href="CSS/estilos.css">
 </head>
 <body>
     <form id="form1" runat="server">
     <div>
+        <header>
+            <h1>Mi Ejemplo</h1>
+			<div>
+				<img src="C:\Creaciones\De HTML\music.jpg" width="1350" height="200" alt="By Padilla">
+			</div>
+			<nav>
+				<ul>
+					<li><a href="#">Inicio</a></li>
+					<li><a href="#">Negocios</a></li>
+					<li><a href="#">Contrataciones</a></li>
+					<li><a href="#">Contactos</a></li>
+					<li><a href="#">Acerca de</a></li>
+				</ul>
+			</nav>
+             <div id="body">
+
+<p>
+
+Al hablar de fundamentos de programación nos referimos a aquellos
+
+conocimientos básicos que nos permitirán desenvolvernos sin excesivo número
+
+de tropiezos. Veamos a qué tipo de tropiezos nos referimos utilizando un
+
+símil de transporte. El conductor (programador) dispone de un coche
+
+(el ordenador) y desea trasladarse
+
+</p>
+
+</div>
+		</header>
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         
         </asp:ContentPlaceHolder>
     </div>
+        <footer>Juan Alberto Padilla -- 2016</footer>
     </form>
 </body>
 </html>
